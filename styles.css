@@ -2,15 +2,16 @@ body {
     background-color: rgb(44, 44, 98);
 }
 body h1 {
+    
     text-align: center;
-    color: white;
+    color: rgb(243, 199, 240);
     margin-top: 100px;
 }
 
 #box {
     margin-inline: auto;
     width: 70%;
-    padding-block: 80px;
+    padding-block: 60px;
     border-radius: 5px;
     background-color: rgb(162, 107, 158);
 }
@@ -22,6 +23,8 @@ label {
 }
 
 .textfield {
+    background-color: rgb(243, 199, 240);
+
     margin-bottom: 10px;
     width: 50%;
     border-radius: 5px;
@@ -33,6 +36,8 @@ label {
 }
 
 #divStyle {
+    background-color: rgb(243, 199, 240);
+
     border-radius: 1px;
     width: 10px;
     height: 10px;
@@ -43,6 +48,7 @@ label {
 }
 
 #button {
+    background-color: rgb(243, 199, 240);
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
     margin-top: 10px;
