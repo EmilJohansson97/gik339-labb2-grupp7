@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(44, 44, 98);
+}
+body h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+#box {
+    padding: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgb(162, 107, 158);
+}
