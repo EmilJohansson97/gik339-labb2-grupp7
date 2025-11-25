@@ -8,9 +8,22 @@ body h1 {
 }
 
 #box {
-    padding: 200px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 50px;
+    display: flex;
+    margin-inline: auto;
+    width: 70%;
+    padding-block: 110px;
+    border-radius: 5px;
     background-color: rgb(162, 107, 158);
+}
+
+label {
+    display: block;
+    padding-left: 40px;
+    padding-right: 30%;
+}
+
+#color{
+    width: 50%;
+    border-radius: 5px;
+    color: red;
 }
