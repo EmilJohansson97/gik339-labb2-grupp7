@@ -8,22 +8,50 @@ body h1 {
 }
 
 #box {
-    display: flex;
     margin-inline: auto;
     width: 70%;
-    padding-block: 110px;
+    padding-block: 80px;
     border-radius: 5px;
     background-color: rgb(162, 107, 158);
 }
 
 label {
-    display: block;
+    
     padding-left: 40px;
     padding-right: 30%;
 }
 
-#color{
+.textfield {
+    margin-bottom: 10px;
     width: 50%;
     border-radius: 5px;
-    color: red;
+}
+
+
+#contentlabel {
+    padding-right: 25.5%;
+}
+
+#divStyle {
+    border-radius: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+#checkboxlabel {
+    padding-right: 22.5%;
+}
+
+#button {
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    margin-inline-start: 40px;
+}
+
+#description {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px 3px 5px 5px;
+    margin-inline: 40px;
 }
