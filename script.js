@@ -21,13 +21,10 @@ inputs[1].addEventListener("input", getInput);
 
 checkbox.addEventListener("change", function () {
     let color = null;
-    for (let field of inputs) {
-        if (field.name === "color"){
-            color = field;
-            break
-        }
-    }
-     
+    const field = inputs[0] 
+   
+    color = field;
+  
     description.style.backgroundColor = color.value;
 });
 
