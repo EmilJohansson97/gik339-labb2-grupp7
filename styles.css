@@ -24,7 +24,6 @@ label {
 
 .textfield {
     background-color: rgb(243, 199, 240);
-
     margin-bottom: 10px;
     width: 50%;
     border-radius: 5px;
@@ -35,16 +34,10 @@ label {
     padding-right: 25.5%;
 }
 
-#divStyle {
-    background-color: rgb(243, 199, 240);
 
-    border-radius: 1px;
-    width: 10px;
-    height: 10px;
-}
 
 #checkboxlabel {
-    padding-right: 22.5%;
+    padding-right: 21.5%;
 }
 
 #button {
