@@ -13,9 +13,9 @@ function getInput(e){
 } 
 }
 
-
-inputs[1].addEventListener("input", getInput);
-
+for (let input of inputs){
+input.addEventListener("input", getInput);
+}
 
 
 
